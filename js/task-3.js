@@ -1,16 +1,16 @@
 function filterArray(numbers, value) {
-    // Створюємо порожній масив для збереження підходящих чисел
+    
     let filteredArray = [];
 
-    // Цикл для ітерації кожного елемента масиву numbers
+    
     for (let i = 0; i < numbers.length; i++) {
-        // Використовуємо умовний оператор для перевірки кожного елемента та додавання його до масиву
+        
         if (numbers[i] > value) {
             filteredArray.push(numbers[i]);
         }
     }
 
-    // Повертаємо новий масив з підходящими числами
+    
     return filteredArray;
 }
 
